@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Cached SEC data — large, regenerable, do not commit raw pulls
+data/raw/*
+!data/raw/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+
+# Labels ARE committed (anonymized) — they are evidence.
+# Do not add data/labels/ here.

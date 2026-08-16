@@ -1,0 +1,53 @@
+# Sample definition — FIX THIS BEFORE ANY PULLING, then do not revisit.
+# Target: 12-15 companies, 2-3 sectors, 6-8 consecutive quarters each.
+#
+# Selection criteria, priority order:
+#   1. Clean, consistent XBRL tagging (stable segment reporting across window)
+#   2. Substantial MD&A — boilerplate MD&A starves B2 and contaminates the delta
+#   3. Visible variance in at least some quarters
+#   4. 2-3 deliberately BORING quarters included on purpose
+# Exclude: banks, insurers, major restatements, YoY-breaking acquisitions.
+
+quarters:
+  start: "2023Q1"   # adjust
+  end:   "2024Q4"   # adjust — 6-8 consecutive
+
+sectors:
+  enterprise_software:
+    # deferred revenue, segment mix, subscription dynamics
+    - name: ""
+      cik: ""       # 10-digit zero-padded, e.g. "0000789019"
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+
+  retail:
+    # seasonality, comps, inventory — tests "moved a lot" vs "moved for a reason"
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+
+  industrials:
+    # input costs, backlog, FX
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""
+    - name: ""
+      cik: ""

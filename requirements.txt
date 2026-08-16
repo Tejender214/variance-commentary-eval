@@ -1,0 +1,8 @@
+requests>=2.31
+pandas>=2.0
+scikit-learn>=1.3      # cohen_kappa_score
+python-dotenv>=1.0
+tenacity>=8.2          # retry/backoff on SEC rate limits
+beautifulsoup4>=4.12   # MD&A extraction from filing HTML
+lxml>=5.0
+tiktoken>=0.5          # token counting for cost instrumentation
