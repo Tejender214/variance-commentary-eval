@@ -3,13 +3,6 @@
 **An evaluation methodology study.** How do you define, measure, and defend quality for
 a generative system where there is no single right answer?
 
-> **Status: design complete, extraction layer implemented and tested. Full results due
-> 13 Sep 2026.**
-> Predicted pass rates for every condition were pre-registered in
-> [`hypothesis.md`](hypothesis.md) and committed **before any generation code existed** —
-> see the first commit in `git log`. That ordering is the point: it means the acceptance
-> criteria could not be fitted to the results after the fact.
-
 ---
 
 ## What this is
@@ -133,6 +126,4 @@ limited to three, and derived quarters inherit rounding from two reported figure
 ## Author
 
 Tejender Reddy Kolla — MBA 2025–27, DoMS IIT Madras. Software and product engineering
-background, moving into AI product management.
-
-Second labeler: Manasa.
+background
