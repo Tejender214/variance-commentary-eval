@@ -104,26 +104,7 @@ echo 'SEC_USER_AGENT="Your Name (your@email.com)"' > .env   # SEC requires a con
 python src/edgar.py                                          # smoke test
 ```
 
-## Repo layout
 
-```
-CONTEXT.md          standing project brief
-hypothesis.md       pre-registered predictions (committed before any generation)
-rubric.md           rubric, frozen acceptance rule, κ log
-config/             sample definition
-src/                extraction, generation, labeling, statistics
-tests/              synthetic fixture + assertions
-report/             the eval report — the primary deliverable
-data/labels/        anonymised labels (committed — they are the evidence)
-```
 
-## Limitations
 
-Reported in full in the eval report. Known in advance: modest sample size, a single
-labeler pair, MD&A-as-reference carries management's framing bias, sector coverage
-limited to three, and derived quarters inherit rounding from two reported figures.
 
-## Author
-
-Tejender Reddy Kolla — MBA 2025–27, DoMS IIT Madras. Software and product engineering
-background
